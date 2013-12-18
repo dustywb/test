@@ -1,28 +1,44 @@
 body{
 	margin: 0px;
-	font-family: verdana;
+	font-family: Verdana, Geneva, sans-serif;
 }
 header{
 	background-color: #ffffff;
-	border-bottom: 5px solid black;
 	text-align: center;
+	padding-bottom: 10px;
 }
 #logo{
 	width: 100%;
+}
+#titleDiv{
+	font-size: 24px;
+	font-weight: bold;
 }
 #content{
 	width: 100%;
 }
 .button{
 	width: 85%;
-	height: 25px;
-	background-color: #ff0000;
-	padding: 5px;
-	font-weight: bold;
-	margin: auto;
+	height: 50px;
+	display: block;
+	background-color: #ff9900;
 	text-align: center;
+	text-decoration: none;
+	line-height: 50px;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 24px;
+	margin-bottom: 5px;
+	margin: auto;
+}
+.pad{
+	padding: 5px;
 }
 footer{
 	text-align: center;
 	font-weight: bold;
+}
+#output{
+	width: 90%;
+	margin: auto;
 }
